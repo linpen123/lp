@@ -16,6 +16,7 @@ public class HelloAction {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         String format = simpleDateFormat.format(date);
         System.out.println(date);
+//        张钰 是个肥嘟嘟的胖兔子
         return "zhangyufeituzi:"+format;
     }
 }
