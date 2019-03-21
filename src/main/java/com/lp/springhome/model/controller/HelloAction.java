@@ -15,6 +15,7 @@ public class HelloAction {
         Date date = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         String format = simpleDateFormat.format(date);
+        System.out.println(date);
         return "zhangyufeituzi:"+format;
     }
 }
